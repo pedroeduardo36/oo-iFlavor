@@ -1,29 +1,18 @@
 class Restaurante:
-    nome = ''
-    categoria = ''
-    ativo = False
+    def __init__(self, nome, categoria):
+        self.nome = nome
+        self.categoria = categoria
+        self.ativo = False
 
-restaurante_massa = Restaurante()
-restaurante_massa.nome = 'Massa'
-restaurante_massa.categoria = 'Gourmet'
+restaurante_massa = Restaurante('Massa', 'Italiano')
 
-restaurante_prata = Restaurante()
-restaurante_prata.nome = 'Massa'
-restaurante_prata.categoria = 'Italiana'
+restaurante_praca = Restaurante('Praça', 'Gourmet')
 
-restaurante_pizza = Restaurante()
-restaurante_pizza.nome = 'Pizza Place'
-restaurante_pizza.categoria = 'Fast Food'
-restaurante_pizza.ativo = True
+restaurante_pizza = Restaurante('Pizza Express', 'Fast food')
 
-restaurantes = [restaurante_massa, restaurante_pizza, restaurante_prata]
-
-if restaurante_pizza.ativo:
-    print('O restaurante está ativo')
-else:
-    print('O restaurante está desativado')
-
-categoria = Restaurante.categoria
-restaurante_prata.nome = 'Bistrô'
+restaurantes = [restaurante_massa, restaurante_praca, restaurante_pizza]
 
 print(vars(restaurante_pizza))
+print(vars(restaurante_praca))
+print(vars(restaurante_massa))
+
