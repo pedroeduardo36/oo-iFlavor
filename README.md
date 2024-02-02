@@ -21,7 +21,6 @@ Exploramos a criação de instâncias da classe Restaurante, destacando como atr
 Compreendemos a distinção entre atributos de classe e atributos de instância, e focamos como os atributos específicos da instância são acessados e manipulados dentro da classe.
 
 Observamos como a classe Restaurante pode ser expandida para incluir outros métodos e comportamentos específicos dos restaurantes em desenvolvimento.
-
 </p>
 
 <h1>Terceira aula - Property e Métodos de Classes</h1>
@@ -35,3 +34,13 @@ Criamos e utilizamos métodos de classe, que são métodos que agem sobre a clas
 Demonstramos o conceito de abstração ao utilizar a propriedade ativo para apresentar visualmente o estado ativo ou inativo de um restaurante.
 </p>
 
+<h1>Quarta aula - Importando classes e composição</h1>
+<p>
+  Aprendemos a importar classes em arquivos Python, utilizando essa habilidade para importar a classe Restaurante para o arquivo principal (main.py), permitindo-nos utilizar suas funcionalidades em nosso programa.
+
+Exploramos ainda mais os princípios da Programação Orientada a Objetos (OO), criando uma nova classe para reforçar conceitos fundamentais. Entendemos como a criação de classes e instâncias proporciona uma estrutura organizada e modular para o código.
+
+Avançamos na integração entre classes, especificamente entre as classes Restaurante e Avaliação. Agora, temos uma lista de objetos de avaliação associados a cada restaurante, demonstrando a relação e interdependência entre diferentes entidades em um sistema.
+
+Utilizamos técnicas de listagem para criar funcionalidades que nos permitem visualizar as avaliações associadas a cada restaurante. Isso consolidou nosso entendimento sobre como gerenciar e apresentar dados de maneira eficiente em nossos programas.
+</p>
