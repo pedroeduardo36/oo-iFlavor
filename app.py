@@ -2,8 +2,8 @@ from modelos.restaurante import Restaurante
 import os
 
 restaurante_praca = Restaurante('Praca', 'Gourmet')
-restaurante_praca.receber_avaliacao('Pedro', 10)
-restaurante_praca.receber_avaliacao('Jú', 11)
+restaurante_praca.receber_avaliacao('Pedro', 3)
+restaurante_praca.receber_avaliacao('Jú', 4)
 # restaurante_ravioli = Restaurante('Ravioli', 'Italiano')
 # restaurante_outback = Restaurante('Outback', 'Australia')
 
